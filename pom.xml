@@ -10,7 +10,7 @@
 
     <properties>
         <flatten.version>1.2.5</flatten.version>
-        <!-- cloud component version -->
+        <!-- 系列组件统一版本号 -->
         <revision>1.0.0</revision>
     </properties>
 
