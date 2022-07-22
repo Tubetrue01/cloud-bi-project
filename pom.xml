@@ -16,6 +16,7 @@
 
     <modules>
         <module>cloud-bi-dependencies</module>
+        <module>cloud-bi-parent</module>
     </modules>
 
     <build>
