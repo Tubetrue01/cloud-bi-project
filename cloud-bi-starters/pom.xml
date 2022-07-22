@@ -14,5 +14,6 @@
 
     <modules>
         <module>cloud-bi-dao-starter</module>
+        <module>cloud-bi-web-starter</module>
     </modules>
 </project>
