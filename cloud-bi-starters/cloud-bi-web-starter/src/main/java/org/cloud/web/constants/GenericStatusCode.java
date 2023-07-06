@@ -1,4 +1,4 @@
-package org.cloud.web.enums;
+package org.cloud.web.constants;
 
 import lombok.Getter;
 
