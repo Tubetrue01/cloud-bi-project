@@ -18,6 +18,7 @@
 
     <modules>
         <module>cloud-bi-dao-starter</module>
+        <module>cloud-bi-dao-flux-starter</module>
         <module>cloud-bi-web-starter</module>
     </modules>
 </project>
