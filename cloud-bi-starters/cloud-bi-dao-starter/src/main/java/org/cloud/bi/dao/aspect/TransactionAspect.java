@@ -1,7 +1,6 @@
 package org.cloud.bi.dao.aspect;
 
 import lombok.extern.log4j.Log4j2;
-import lombok.var;
 import org.springframework.aop.Advisor;
 import org.springframework.aop.aspectj.AspectJExpressionPointcut;
 import org.springframework.aop.support.DefaultPointcutAdvisor;

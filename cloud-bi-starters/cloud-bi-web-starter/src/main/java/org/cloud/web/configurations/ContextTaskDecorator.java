@@ -1,6 +1,5 @@
 package org.cloud.web.configurations;
 
-import lombok.val;
 import org.springframework.core.task.TaskDecorator;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
@@ -17,7 +16,7 @@ public class ContextTaskDecorator implements TaskDecorator {
      */
     @Override
     public Runnable decorate(Runnable runnable) {
-        val requestAttributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
+        var requestAttributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         return () -> {
             try {
                 RequestContextHolder.setRequestAttributes(requestAttributes);

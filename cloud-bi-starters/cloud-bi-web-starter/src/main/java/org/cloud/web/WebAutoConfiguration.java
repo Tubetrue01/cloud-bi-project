@@ -1,6 +1,5 @@
 package org.cloud.web;
 
-import lombok.val;
 import org.cloud.web.configurations.ContextTaskDecorator;
 import org.cloud.web.properties.WebStarterProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -28,8 +27,8 @@ public class WebAutoConfiguration {
      */
     @Bean
     public Executor asyncExecutor(WebStarterProperties properties) {
-        val poolConfig = properties.getExecutorPool();
-        val executor = new ThreadPoolTaskExecutor();
+        var poolConfig = properties.getExecutorPool();
+        var executor = new ThreadPoolTaskExecutor();
         executor.setTaskDecorator(new ContextTaskDecorator());
         executor.setCorePoolSize(poolConfig.getCorePoolSize());
         executor.setMaxPoolSize(poolConfig.getMaxPoolSize());

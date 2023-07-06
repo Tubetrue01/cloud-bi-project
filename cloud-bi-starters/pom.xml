@@ -12,6 +12,10 @@
     <name>cloud-bi-starters</name>
     <packaging>pom</packaging>
 
+    <properties>
+        <java.version>11</java.version>
+    </properties>
+
     <modules>
         <module>cloud-bi-dao-starter</module>
         <module>cloud-bi-web-starter</module>
